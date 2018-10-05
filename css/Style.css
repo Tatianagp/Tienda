@@ -1,0 +1,83 @@
+/* Getting the new tags to behave */
+article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video{display:block}
+mark, rp, rt, ruby, summary, time{display:inline }
+/*alineamientos======================================================== */
+.left {float:left}
+.right {float:right}
+.wrapper {width:100%;overflow:hidden}
+.col1, .col2, .col3, .cols { float:left;}
+.cols{ width:190px;}
+.col1{ width:270px;}
+.col3{ width:200px;}
+.col2{ width:220px;}
+.cabeza{ text-align:center}
+.carrito{float: right;}
+.Tienda{display:inline-block}
+.content {  
+  text-align: left;
+  width: 670px;
+  margin: 25px 0 0 0;
+  float: left;
+  font-size: 120%;
+}
+/* bordes redondeados ======================================================== */
+div.Foto {
+    /* cambia estos dos valores para definir el tamaño de tu círculo */
+    height: 100px;
+    width: 100px;
+    /* los siguientes valores son independientes del tamaño del círculo */
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    background-size: 100% auto;
+	float: left;
+
+}
+/* personalizar contenidos======================================================== */
+body{background:#000;border:0;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;color:#041602;line-height:22px;font-style:italic}
+.body1{background:url(../img/bg.jpg) bottom center repeat} /* Fondo superior Negro cuadros */
+.body3{background:#fff}  /* Fondo blanco */
+.body5{background:url(../img/bg_top_imgx.jpg) center bottom no-repeat} /* Fondo verde */
+.body6{background:url(../img/bg.jpg) bottom center repeat}
+.main {margin:0 auto;width:940px}
+/* ============================= main layout ====================== */
+a{color:#696969;text-decoration:underline;outline:none}
+a:hover{text-decoration:none}
+h1{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;padding:38px 0 11px 0;color:#000;letter-spacing:-1px}
+h1.under{border-bottom:1px solid #e5e5e5;margin-bottom:25px}
+h2{font-size:20px;line-height:1.2em;color:#000;padding:0 0 5px 0;font-style:normal;font-weight:400}
+h13{font-size:40px;font-style:normal;font-weight:400;line-height:1.2em;padding:38px 0 11px 0;color:#FFFFFF;letter-spacing:-1px}
+h14{font-size:20px;line-height:1.2em;color:#FFFFFF;padding:0 0 5px 0;font-style:normal;font-weight:400}
+
+p{padding-bottom:22px}
+/* ============================= header ====================== */
+header{padding-top:34px;height:148px}
+/* ============================= header ====================== */
+#content{padding-top:50px;padding-bottom:36px}
+#content2{padding-bottom:80px}
+#pgcompra .cols{ width:270px;}
+#pgcompra #content{ padding-top:4px}
+#pgcompra figure{ padding-top:5px;}
+#pgcompra figure{ padding-top:5px;}
+.pad_left1{padding-left:50px}
+.pad_left2{padding-left:50px}
+.pad_left3{padding-left:50px}
+.pad_bot1{padding-bottom:8px; background:url(../img/fViveres.jpg)}
+.pad_bot2{padding-bottom:40px; background:url(../img/fAseo.png)}
+.marg_right1{margin-right:20px}
+.link1{color:#60b000;font-style:normal}
+
+/* ============================= formulario ============================= */
+#TiendaFrm {margin-top:-4px}
+#TiendaFrm span{width:109px;float:left;line-height:26px}
+#TiendaFrm .wrapper{min-height:30px}
+#TiendaFrm .textarea_box{min-height:275px;width:100%;overflow:hidden;padding-bottom:6px}
+#TiendaFrm {}
+#TiendaFrm {}
+#TiendaFrm a{margin-left:10px;float:right;width:62px;font-style:normal;font-weight:bold;color:#fff;height:32px;line-height:32px;text-decoration:none;background:#60b000;text-align:center}
+#TiendaFrm a:hover{background:#080808}
+#TiendaFrm .input {width:100px;height:18px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+#TiendaFrm textarea {overflow:auto;width:200px;height:258px;border:1px solid #e5e5e5;background:#fff;padding:3px 5px;color:#696968;font:14px "Trebuchet MS", Arial, Helvetica, sans-serif;font-style:italic;margin:0}
+/* personalizar el carrito======================================================== */
+.blanco { color: #FFFFFF;}
+
